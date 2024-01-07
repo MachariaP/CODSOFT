@@ -4,6 +4,8 @@ Welcome to the Python programming internship at [CODSOFT](http://www.codsoft.in)
 
 ## Task 1: To-Do List Application
 
+![](https://cdn.pixabay.com/photo/2014/06/15/18/43/slate-369426_1280.jpg) 
+
 A To-Do List application is a powerful project that empowers users to efficiently manage and organize their tasks. This project aims to create a versatile application using Python, offering both command-line and GUI-based interfaces. Users can seamlessly create, update, and track their to-do lists.
 
 ### Features
@@ -20,6 +22,8 @@ A To-Do List application is a powerful project that empowers users to efficientl
 
 ## Task 2: Calculator
 
+![](https://cdn.pixabay.com/photo/2020/11/25/18/09/calculator-5776690_640.png)
+
 Design a simple yet robust calculator with basic arithmetic operations. Prompt the user to input two numbers and their desired operation. The calculator will perform the calculation and display the result.
 
 ### Features
@@ -33,6 +37,8 @@ Design a simple yet robust calculator with basic arithmetic operations. Prompt t
 4. Run the application: `python calculator_app.py`
 
 ## Task 3: Password Generator
+
+![](https://media3.giphy.com/media/11w04LB6klGtcA/200.webp?cid=ecf05e47tmpna6t70075qrdyvmkm5l07o2dsys327tyyvgz4&ep=v1_gifs_search&rid=200.webp&ct=g)
 
 A password generator is a crucial tool for generating strong and secure passwords. This Python project allows users to specify the length and complexity of the password.
 
@@ -49,6 +55,7 @@ A password generator is a crucial tool for generating strong and secure password
 
 ## Task 4: Rock-Paper-Scissors Game
 
+![image](https://imgs.search.brave.com/C_qgDQ64iaaGjKh8Jlass9wVEqc59HQy7Vynf2lN2zE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL3N1bW5h/bmRpL1JvY2tfUGFw/ZXJfU2Npc3Nvci9y/YXcvbWFzdGVyL1Jv/Y2tfUGFwZXJfU2Np/c3NvcnNfT3V0cHV0/LnBuZw)
 Implement a classic Rock-Paper-Scissors game using Python. Prompt the user to choose rock, paper, or scissors, generate a random choice for the computer, determine the winner, and display the result.
 
 ### Features
@@ -64,6 +71,8 @@ Implement a classic Rock-Paper-Scissors game using Python. Prompt the user to ch
 4. Run the application: `python rps_game.py`
 
 ## Task 5: Contact Book
+
+![](https://imgs.search.brave.com/V7Ik-quVGpCcSJxNw7t8zYuJc6jiPOvnZHq_J7tBz_w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS8x/MjgvOTcyMi85NzIy/OTE3LnBuZw)
 
 Create a comprehensive contact book application that serves as a centralized hub for storing and managing contact information.
 
