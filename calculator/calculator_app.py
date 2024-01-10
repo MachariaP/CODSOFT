@@ -1,95 +1,62 @@
 #!/usr/bin/python3
 
-# define the functions needed : add, sub, mul, div
 def add(a, b):
-    """
-    Addational function
-
-    Args:
-        a: first integer
-        b: secont integer
-
-    Returns:
-        The return value. a + b
-    """
-    return (a + b)
+    """Additional function"""
+    return a + b
 
 def sub(a, b):
-     """
-     Substraction function
-
-     Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a - b
-    """
-    return (a - b)
+    """Subtraction function"""
+    return a - b
 
 def mul(a, b):
-    """
-    Multiplication function
-
-    Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a * b
-    """
-    return (a * b)
+    """Multiplication function"""
+    return a * b
 
 def div(a, b):
-    """
-    Division function
+    """Division function"""
+    try:
+        result = a / b
+        return result
+    except ZeroDivisionError:
+        return "Cannot divide by zero"
 
-    Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a / b
-    """
-    return (a / b)
-
-# Print options to the user
 def calculator():
     print("Simple Calculator")
     print("Operations:")
     print("A. Addition (+)")
-    print("B. Substraction(-)")
-    print("C. Multiplication(*)")
+    print("B. Subtraction (-)")
+    print("C. Multiplication (*)")
     print("D. Division (/)")
 
-# Get user input
 while True:
-    choice = input("Choose an option(A/B/C/D): ")
+    calculator()
+    
+    # Get user input
+    choice = input("Choose an option (A/B/C/D): ").upper()
 
     # Confirm if choice is one of the options
-    if choice in('A', 'B', 'C', 'D'):
+    if choice in ('A', 'B', 'C', 'D'):
         try:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
         except ValueError:
-            print("Invalid input. Please enter a letter.")
+            print("Invalid input. Please enter valid numbers.")
             continue
 
         if choice == 'A':
-            print(num1, "+", num2, "=", add(num1, num2))
+            print(f"{num1} + {num2} = {add(num1, num2)}")
 
         elif choice == 'B':
-            print(num1, "-", num2, "=", sub(num1, num2))
+            print(f"{num1} - {num2} = {sub(num1, num2)}")
 
         elif choice == 'C':
-            print(num1, "*", num2, "=", mul(num1, num2))
+            print(f"{num1} * {num2} = {mul(num1, num2)}")
 
         elif choice == 'D':
-            print(num1, "/", num2, "=", div(num1, num2))
+            result = div(num1, num2)
+            print(f"{num1} / {num2} = {result}")
 
-    # while loop to continue the program untill user exits
-    next_calculation = input("Let's do next calculation? (yes/exit): ")
+    # Prompt user for next calculation or exit
+    next_calculation = input("Do another calculation? (yes/exit): ").lower()
     if next_calculation == "exit":
         break
-else:
-    print("Invalid input")
